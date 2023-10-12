@@ -1,0 +1,23 @@
+{
+    "OpenFreeEnergy": {
+        "meta": {
+            "title": "OpenFreeEnergy"
+        },
+        "git": [
+            "https://github.com/OpenFreeEnergy/cinnabar.git",
+            "https://github.com/OpenFreeEnergy/openfreeenergy.github.io.git",
+            "https://github.com/OpenFreeEnergy/ExampleNotebooks.git",
+            "https://github.com/OpenFreeEnergy/Lomap.git",
+            "https://github.com/OpenFreeEnergy/openfe.git",
+            "https://github.com/OpenFreeEnergy/gufe.git",
+            "https://github.com/OpenFreeEnergy/openfe-benchmarks.git",
+            "https://github.com/OpenFreeEnergy/exorcist.git",
+            "https://github.com/OpenFreeEnergy/validation-benchmarks.git",
+            "https://github.com/OpenFreeEnergy/arsenic.git",
+            "https://github.com/OpenFreeEnergy/pdbinf.git",
+            "https://github.com/OpenFreeEnergy/kartograf.git",
+            "https://github.com/OpenFreeEnergy/openfe_analysis.git",
+            "https://github.com/OpenFreeEnergy/ofe-sphinx-theme.git"
+        ]
+    }
+}
