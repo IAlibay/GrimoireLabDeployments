@@ -12,7 +12,7 @@ def gen_json(orgname: str) -> None:
     org = git.get_organization(orgname)
 
     # we filter out all the forks by default
-    repo_urls = [r.clone_url.replace('.git', '')
+    repo_urls = [r.clone_url[:-4]
                  for r in org.get_repos()
                  if (not r.fork) and (not r.private)]
 

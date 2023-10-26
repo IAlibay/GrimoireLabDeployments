@@ -3,6 +3,15 @@ A repository of Grimoirelab deployment configs for various projects
 
 ## Troubleshooting
 
+### Kibana server is not ready yet
+
+This often happens when you don't have enough virtual memory available.
+
+Make sure that you have run: `sudo sysctl -w vm.max_map_count=262144` before invoking docker-compose.
+
+
+### seccomp unavailable error
+
 If you run into the below error with elasticsearch:
 
 ```
